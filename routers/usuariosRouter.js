@@ -2,12 +2,12 @@ import express from "express";
  //archvo de rotS
 const router= express.Router();
  
-router.get('/',function(req, res){
+router.get('/',(req, res)=>{
 
         res.json({msg: 'json hola dundo'})
 });
 
-router.get('/nosotros',function(req,res){
+router.get('/nosotros',(req,res)=>{
 
       res.send('rutaalterna llamada nostros')
 });
