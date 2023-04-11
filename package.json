@@ -1,0 +1,25 @@
+{
+  "name": "bienes_raices_mvc",
+  "version": "1.0.0",
+  "description": "mis_suenos_y_esperanzas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon  index.js"
+    
+  },
+  "keywords": [
+    "MVC",
+    "PUG",
+    "TAILWIND",
+    "MYSQL",
+    "SEQUELIZE"
+  ],
+  "author": "AxelC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
