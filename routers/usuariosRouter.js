@@ -7,11 +7,14 @@ router.get('/',(req, res)=>{
         res.json({msg: 'json hola dundo'})
 });
 
-router.get('/nosotros',(req,res)=>{
 
-      res.send('rutaalterna llamada nostros')
+router.get('/login',(req, res)=>{
+
+      res.render('auth/login');
 });
 
+
+ 
 router.post('/',function(req,res){
           
       res.json({msg: 'respuesta tipo post'})

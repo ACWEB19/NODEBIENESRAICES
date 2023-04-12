@@ -8,7 +8,13 @@ import usuariosRouter from "./routers/usuariosRouter.js"; // mandando a llamar r
 
 const app = express(); // extraer express.  y asignaor a una nueva varibale
 
+ //habilitando el html pug de la aplicacion
+ app.set('view engine', 'pug');
+ app.set('views', './views');
+
+
 const  port = 3000;// declarando el puerto
+
 
 
 /*app.get("/", usuariosRouter);
@@ -17,7 +23,7 @@ app.get("/ruta", usuariosRouter);
 get busca rutas en especifico mejor use , busca varias
 */
  
-app.use('/', usuariosRouter);
+app.use('/auth', usuariosRouter); //mostrado las rutas del html
 
 
 //activar el puerto
