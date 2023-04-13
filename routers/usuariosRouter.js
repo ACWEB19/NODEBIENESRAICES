@@ -1,6 +1,6 @@
 import express from "express";
 
-import {formularioLogin} from '../controllers/usuariosController.js';
+import {formularioLogin, formularioRegistro} from '../controllers/usuariosController.js';
 
 
  //archvo de rotS
@@ -13,6 +13,9 @@ router.get('/',(req, res)=>{
 
 
 router.get('/login',formularioLogin);
+
+router.get('/registro',formularioRegistro);
+
 
 
  
