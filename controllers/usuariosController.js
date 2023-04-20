@@ -9,7 +9,7 @@ const formularioLogin = ( req,res)=>{
   
 const formularioRegistro = ( req,res)=>{
 
-    res.render('auth/login', {
+    res.render('auth/registro', {
 
         autenticado:true
 })
