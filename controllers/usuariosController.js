@@ -3,7 +3,7 @@ const formularioLogin = ( req,res)=>{
 
     res.render('auth/login', {
 
-        autenticado:true
+        pagina: "login"
 })
 }
   
@@ -11,7 +11,7 @@ const formularioRegistro = ( req,res)=>{
 
     res.render('auth/registro', {
 
-        autenticado:true
+        pagina: "registrarce"
 })
 }
 
