@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon  index.js"
+    "server": "nodemon  index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css"
   },
   "keywords": [
     "MVC",
@@ -19,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.21",
+    "nodemon": "^2.0.21",    
     "pug": "^3.0.2"
   },
   "devDependencies": {

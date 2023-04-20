@@ -24,7 +24,7 @@ get busca rutas en especifico mejor use , busca varias
 */
  
 app.use('/auth', usuariosRouter); //mostrado las rutas del html
-
+app.use(express.static('public')); // carpeta de css Estatico
 
 //activar el puerto
 app.listen(port,()=>{
